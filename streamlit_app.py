@@ -3,4 +3,4 @@ import streamlit as st
 st.write("""
 # My first app
 Hello *world!*""")
-add me
+st.draw 2*2
