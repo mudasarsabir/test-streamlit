@@ -1,6 +1,4 @@
 import streamlit as st
 
-st.write("""
-# My first app
-Hello *world!*""")
-st.draw 2*2
+x = st.slider('x')
+st.write(x, 'squared is', x * x)
